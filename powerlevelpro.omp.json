@@ -1,0 +1,97 @@
+{
+	"blocks": [
+		{
+			"type": "newline"
+		},
+		{
+			"type": "prompt",
+			"alignment": "left",
+			"segments": [
+				{
+					"type": "os",
+					"style": "diamond",
+					"foreground": "#546E7A",
+					"background": "#fafafa",
+					"properties": {
+						"postfix": " "
+					},
+					"leading_diamond": "\uE0B2",
+					"trailing_diamond": "\ue0bc"
+				},
+				{
+					"type": "root",
+					"style": "diamond",
+					"foreground": "#ffd66b",
+					"background": "#546E7A",
+					"leading_diamond": "\uE0B2",
+					"trailing_diamond": "\ue0bc"
+				},
+				{
+					"type": "path",
+					"style": "diamond",
+					"foreground": "#ffffff",
+					"background": "#546E7A",
+					"leading_diamond": "\ue0ba ",
+					"trailing_diamond": "\ue0bc",
+					"properties": {
+						"style": "folder",
+						"home_icon": "\uF7DB ~",
+						"folder_icon": "\uf07c ",
+						"folder_separator_icon": "\uE0B1 "
+					}
+				},
+				{
+					"type": "git",
+					"style": "diamond",
+					"foreground": "#546E7A",
+					"background": "#ffd66b",
+					"leading_diamond": "\ue0ba ",
+					"trailing_diamond": "\ue0bc",
+					"properties": {
+						"prefix": " \ue708 ",
+						"branch_icon": "\ue725 ",
+						"branch_identical_icon": "\uf0c9 "
+					}
+				}
+			]
+		},
+		{
+			"type": "prompt",
+			"alignment": "right",
+			"segments": [
+				{
+					"type": "time",
+					"style": "diamond",
+					"foreground": "#ffd66b",
+					"background": "#546E7A",
+					"leading_diamond": "\uE0B2",
+					"trailing_diamond": "\ue0b0",
+					"properties": {
+						"time_format": "15:04:05",
+						"postfix": " \uF017 "
+					}
+				}
+			]
+		},
+		{
+			"type": "newline"
+		},
+		{
+			"type": "prompt",
+			"alignment": "left",
+			"segments": [
+				{
+					"type": "exit",
+					"style": "plain",
+					"foreground": "#ffd66b",
+					"properties": {
+						"prefix": "\u276F",
+						"always_enabled": true,
+						"error_color": "#FF5252",
+						"display_exit_code": false
+					}
+				}
+			]
+		}
+	]
+}
